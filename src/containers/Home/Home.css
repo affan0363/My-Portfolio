@@ -1,0 +1,159 @@
+.home {
+    position: relative;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    margin-top: 150px;
+}
+
+.home-textWrapper {
+    justify-content: center;
+    margin-right: 100px;
+}
+
+h1 {
+    color: white;
+    font-weight: 500;
+    font-size: 25px;
+    /* line-height: 4rem; */
+    position: relative;
+    overflow: hidden;
+}
+
+.name {
+    color: orangered;
+    font-weight: 600;
+    font-size: larger;
+}
+
+h2 {
+    color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 550px) {
+    h1 {
+        font-size: 14px;
+    }
+
+    h2 {
+        font-size: 12px;
+    }
+    button{
+        font-size: 9px;
+    }
+    .home {
+        display: flex;
+        flex-direction: column;
+        top: -300;
+
+    }
+    .image-container img{
+        height: 70px;
+        width: 70px;
+        margin-top: 20px;
+        margin-right: 60px;
+
+    }
+
+
+}
+
+@media only screen and (min-width : 551px) and (max-width : 768px) {
+    h1 {
+        font-size: 17px;
+    }
+
+    h2 {
+        font-size: 14px;
+    }
+    button{
+        font-size: 11px;
+    }
+    .home {
+        display: flex;
+        flex-direction: column;
+        top: -300;
+
+    }
+    .image-container img{
+        height: 110px;
+        width: 110px;
+        margin-top: 20px;
+        margin-right: 60px;
+
+
+    }
+
+}
+
+@media only screen and (min-width : 769px) and (max-width : 990px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+    button{
+        font-size: 14px;
+    }
+    .home {
+        display: flex;
+        flex-direction: column;
+        top: -300;
+
+    }
+    .image-container img{
+        height: 140px;
+        width: 140px;
+        margin-top: 20px;
+        margin-right: 60px;
+
+    }
+
+}
+/* .home-contact{
+    display: flex;
+    justify-content: center;
+
+} */
+button{
+    cursor: pointer;
+    padding: 5px 25px;
+    font-size: 16px;
+    background: transparent;
+    color: yellow;
+    border: 1px solid white;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-weight: 500;
+    border-radius: 6px;
+}
+button:hover{
+    color: black;
+    background-color: yellow;
+}
+.image-container img{
+    margin-left: 50px;
+    height: 200px;
+    width: 200px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.image-container img:hover{
+    border: 1px solid black;
+    zoom: calc(1.1);
+}
+.download{
+    margin-left: 20px;
+    padding: 5px 15px;
+    background-color: transparent;
+}
+
+
+/* npm i --save @fortawesome/fontawesome-svg-core */

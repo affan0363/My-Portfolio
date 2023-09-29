@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200..900&display=swap');
+
+
+
+:root{
+    --yellow-theme-background-color: rgb(25, 23, 23);
+    --yellow-theme-main-color : yellow;
+    --yellow-theme-sub-text-color : white;
+    --yellow-theme-nav-background-color : rgb(5, 5, 5);
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+html{
+    font-size: 90%;
+    height: 100%;
+}
+
+body{
+    background: var(--yellow-theme-background-color);
+    height: 100%;
+    
+}

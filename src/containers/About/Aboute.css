@@ -1,0 +1,135 @@
+.abt {
+    color: yellow;
+    font-size: 29px;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    padding-bottom: 10px;
+    border-bottom: 3px solid orangered;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 350px;
+    margin-left: 80px;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.name-container {
+    font-size: 20px;
+    color: orange;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    /* border-bottom: 3px solid orangered; */
+}
+
+.about {
+    font-size: 18px;
+    margin-left: 15px;
+    color: rgb(253, 251, 251);
+    font-weight: 500;
+    line-height: 22px;
+}
+
+@media only screen and (max-width: 550px) {
+    .abt {
+        font-size: 15px;
+
+    }
+
+    .about-container {
+        margin-top: 40px;
+        margin-left: 0;
+        width: 200px;
+        height: 300px;
+
+    }
+
+}
+
+@media only screen and (min-width : 551px) and (max-width : 768px) {
+    .abt {
+        font-size: 18px;
+    }
+
+    .about-container {
+        margin-top: 40px;
+        margin-left: 0;
+        width: 250px;
+
+    }
+}
+
+@media only screen and (min-width : 769px) and (max-width : 990px) {
+    .abt {
+        font-size: 22px;
+    }
+
+    .about-container {
+        margin-top: 40px;
+        margin-left: 0;
+        width: 290px;
+
+    }
+}
+
+.personal-info {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 430px;
+    margin-left: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.personal {
+    font-size: 20px;
+    color: orange;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    /* border-bottom: 3px solid orangered; */
+}
+
+.info {
+    font-size: 18px;
+    margin-left: 15px;
+    margin-top: 15px;
+    color: rgb(250, 250, 248);
+    font-weight: 500;
+    line-height: 22px;
+    line-height: 27px;
+}
+
+@media only screen and (max-width: 550px) {
+
+    .personal-info {
+        margin-top: 50px;
+        margin-left: 0;
+        width: 200px;
+    }
+
+}
+
+@media only screen and (min-width : 551px) and (max-width : 768px) {
+
+    .personal-info {
+        margin-top: 50px;
+        margin-left: 0;
+        width: 250px;
+    }
+}
+
+@media only screen and (min-width : 769px) and (max-width : 990px) {
+
+    .personal-info {
+        margin-top: 50px;
+        margin-left: 0;
+        width: 300px;
+    }
+}
