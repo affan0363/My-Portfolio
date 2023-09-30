@@ -18,7 +18,8 @@ const About = () => {
         <p className='info'>NAME :-  MD AFFAN<br/>
         FATHER'S NAME :- MD KAMALUDDIN<br/>
         DOB  :- 13/12/2001<br/>
-        ADDRESS :- PAHARGANJ, NEW DELHI, 110055
+        ADDRESS :- PAHARGANJ, NEW DELHI, 110055<br/>
+        LANGUAGE :- ENGLISH, HINDI, URDU
         </p>
         
       </div>

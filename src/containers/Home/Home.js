@@ -56,3 +56,11 @@ const Home = () => {
 }
 
 export default Home
+
+
+
+
+
+
+// git remote add origin https://github.com/affan0363/My-Portfolio.git
+// git push -u origin main
